@@ -1,1 +1,2 @@
-const numberInput= document.getElementById('number-input')
+let numberInput= document.getElementById('number-input')
+let 
