@@ -15,13 +15,19 @@ function convertToRoman(numberInput) {
     return output; 
 }
 
-
+function handleConvert() {
 
 const numberInput= document.getElementById('number-input')
 const result = document.getElementById('result-div')
 
+const romanNumeral  = convertToRoman(numberInput)
+result.textContent = `Roman Numeral: ${RomanNumeral}`
+
+} 
+
 
 
 const submit = document.getElementbyId('sumbit')
+submit.addEventListener ('click', handleConvert)
 
 
