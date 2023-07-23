@@ -1,2 +1,4 @@
 let numberInput= document.getElementById('number-input')
-let 
+let submit =document.getElementById('submit')
+
+submit.addEventListener('click', )
