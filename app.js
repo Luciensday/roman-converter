@@ -22,3 +22,6 @@ const result = document.getElementById('result-div')
 
 
 
+const submit = document.getElementbyId('sumbit')
+
+
