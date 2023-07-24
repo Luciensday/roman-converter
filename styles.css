@@ -10,5 +10,19 @@ p { color: blue; }
     flex-direction: column; 
     justify-content: center;
     padding: 2rem 
-    
+
 }
+
+#chart-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+   
+    padding: 10px; 
+    gap: 20px; 
+
+}
+
+button {grid-column: span 3;}
+#result-div {
+    grid-column: span 3; 
+text-align: center }
