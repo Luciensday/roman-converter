@@ -9,20 +9,31 @@ p { color: blue; }
     display: flex; 
     flex-direction: column; 
     justify-content: center;
-    padding: 2rem 
+    padding: 2rem; 
+    font-family: 'Roboto', sans-serif;
+    
 
 }
 
 #chart-container {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr;
-   
+    grid-template-columns: 1fr 1fr ;
     padding: 10px; 
     gap: 20px; 
-
+    border: 1px solid black; 
+    
 }
 
-button {grid-column: span 3;}
+#number-input {
+    font-family: 'Roboto', sans-serif;
+
+}
+button {
+    grid-column: span 2;
+    font-family: 'Roboto', sans-serif;
+}
+
 #result-div {
-    grid-column: span 3; 
-text-align: center }
+    grid-column: span 2; 
+    text-align: center 
+}
